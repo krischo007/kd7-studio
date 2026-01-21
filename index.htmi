@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KD7 Studio | Premium Websites, Modern Design</title>
+  <meta name="description" content="KD7 Studio builds premium websites with modern design and flawless functionality. Remote worldwide." />
+
+  <meta property="og:title" content="KD7 Studio" />
+  <meta property="og:description" content="Premium web design and development. Clean code. Strong visuals. Remote worldwide." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="KD7 Studio home">
+        <span class="brand-kd7">KD7</span><span class="brand-studio">Studio</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <div class="nav-menu" id="navMenu">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <a class="btn btn-primary desktop-only" href="contact.html">Request a quote</a>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Websites that look premium and work flawlessly.</h1>
+          <p class="lead">
+            Modern web design and development for businesses and creators. Clean code, strong visuals, reliable performance.
+            Remote, worldwide.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Request a quote</a>
+            <a class="btn btn-ghost" href="#work">View work</a>
+          </div>
+
+          <div class="trust">
+            <span>Responsive</span>
+            <span>Fast loading</span>
+            <span>Clean code</span>
+            <span>SEO-ready</span>
+            <span>Ongoing support</span>
+          </div>
+        </div>
+
+        <div class="hero-3d">
+          <div class="tilt card-glass" data-tilt>
+            <div class="card-badge">KD7 Studio</div>
+            <h2>Modern design, built for real business.</h2>
+            <p class="muted">
+              Three-page structure. Premium navigation. Subtle 3D depth. Performance-first.
+            </p>
+
+            <div class="card-stats">
+              <div class="stat">
+                <div class="stat-top">Delivery</div>
+                <div class="stat-val">Fast</div>
+              </div>
+              <div class="stat">
+                <div class="stat-top">Scope</div>
+                <div class="stat-val">Focused</div>
+              </div>
+              <div class="stat">
+                <div class="stat-top">Quality</div>
+                <div class="stat-val">High</div>
+              </div>
+            </div>
+
+            <div class="card-line"></div>
+
+            <div class="card-cta">
+              <a class="btn btn-ghost" href="services.html">Explore services</a>
+              <button class="btn btn-secondary" type="button" id="openPreview">Open preview</button>
+            </div>
+          </div>
+
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured services</h2>
+          <p class="muted">Clear scope, premium execution, practical results.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card-glass service-card">
+            <h3>Landing Pages</h3>
+            <p class="muted">High-impact one-page sites designed to convert visitors into leads.</p>
+            <ul class="bullets">
+              <li>Strong structure and calls to action</li>
+              <li>Mobile-first layout</li>
+              <li>SEO basics included</li>
+            </ul>
+          </article>
+
+          <article class="card-glass service-card">
+            <h3>Business Websites</h3>
+            <p class="muted">Multi-page websites with modern navigation and consistent design.</p>
+            <ul class="bullets">
+              <li>Clean, premium look</li>
+              <li>Fast loading and accessibility</li>
+              <li>Easy to expand later</li>
+            </ul>
+          </article>
+
+          <article class="card-glass service-card">
+            <h3>Chat & Automation</h3>
+            <p class="muted">Chat integrations and simple automations for lead capture and support.</p>
+            <ul class="bullets">
+              <li>Smart inquiry flow</li>
+              <li>Lead capture</li>
+              <li>Practical workflows</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="work">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p class="muted">Portfolio demonstrations with premium UI and strong structure.</p>
+        </div>
+
+        <div class="work-grid">
+          <a class="work-card card-glass" href="#" role="button">
+            <div class="work-top">
+              <div class="work-tag">3D Landing Page</div>
+              <div class="work-dot"></div>
+            </div>
+            <h3>Modern landing with depth</h3>
+            <p class="muted">3D hover, smooth motion, clean hierarchy.</p>
+          </a>
+
+          <a class="work-card card-glass" href="#" role="button">
+            <div class="work-top">
+              <div class="work-tag">Booking Website</div>
+              <div class="work-dot"></div>
+            </div>
+            <h3>Structured flow</h3>
+            <p class="muted">Clear sections, usable layout, strong conversion path.</p>
+          </a>
+
+          <a class="work-card card-glass" href="#" role="button">
+            <div class="work-top">
+              <div class="work-tag">Service Website</div>
+              <div class="work-dot"></div>
+            </div>
+            <h3>Professional presence</h3>
+            <p class="muted">Modern nav, clean content, credibility-first.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Process</h2>
+          <p class="muted">Simple, controlled, and built for quality.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="step card-glass">
+            <div class="step-num">1</div>
+            <h3>Discovery</h3>
+            <p class="muted">Goals, structure, and visual direction.</p>
+          </div>
+          <div class="step card-glass">
+            <div class="step-num">2</div>
+            <h3>Build</h3>
+            <p class="muted">Design and development with performance in mind.</p>
+          </div>
+          <div class="step card-glass">
+            <div class="step-num">3</div>
+            <h3>Launch & support</h3>
+            <p class="muted">Final checks, deployment, and improvements if needed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ</h2>
+          <p class="muted">Clear expectations from the start.</p>
+        </div>
+
+        <div class="faq">
+          <details class="card-glass">
+            <summary>How long does a project take?</summary>
+            <p>Timelines depend on scope, but most projects are delivered efficiently with clear milestones.</p>
+          </details>
+          <details class="card-glass">
+            <summary>What do you need from the client?</summary>
+            <p>Basic information, content direction, and feedback during the process.</p>
+          </details>
+          <details class="card-glass">
+            <summary>Do you offer revisions?</summary>
+            <p>Yes. Revisions are part of the workflow to ensure the final result meets expectations.</p>
+          </details>
+          <details class="card-glass">
+            <summary>Do you provide ongoing support?</summary>
+            <p>Support and maintenance can be arranged after launch.</p>
+          </details>
+        </div>
+
+        <div class="center-cta">
+          <a class="btn btn-primary" href="contact.html">Request a quote</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand"><span class="brand-kd7">KD7</span><span class="brand-studio">Studio</span></div>
+        <div class="footer-muted">Premium web design. Remote worldwide.</div>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">© <span id="year"></span> KD7 Studio. Portfolio demonstration.</div>
+  </footer>
+
+  <div class="modal" id="previewModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Preview">
+      <div class="modal-head">
+        <strong>Preview</strong>
+        <button class="icon-btn" type="button" data-close aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="muted">This is a demo preview modal. Replace this with real project previews later.</p>
+        <div class="preview-grid">
+          <div class="preview-tile card-glass">Landing Page</div>
+          <div class="preview-tile card-glass">Business Site</div>
+          <div class="preview-tile card-glass">Contact Flow</div>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn btn-primary" type="button" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
